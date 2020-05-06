@@ -1,4 +1,4 @@
-{% set version = '0.1' %}
+{% set version = "0.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: generic
-  number: 1002
+  number: 1003
 
   rpaths:
     - lib/R/lib/
@@ -39,13 +39,12 @@ test:
 about:
   home: https://github.com/omarwagih/ggseqlogo
   license: LGPL
-  summary: The extensive range of functions provided by this package makes it possible to draw
-    highly versatile sequence logos. Features include, but not limited to, modifying
-    colour schemes and fonts used to draw the logo, generating multiple logo plots,
-    and aiding the visualisation with annotations. Sequence logos can easily be combined
-    with other plots 'ggplot2' plots.
+  summary: The extensive range of functions provided by this package makes it possible to draw highly versatile sequence logos. Features include, but not limited to, modifying colour schemes and fonts used to draw the logo, generating multiple logo plots, and aiding the visualisation with annotations. Sequence logos can
+    easily be combined with other plots 'ggplot2' plots.
   license_family: LGPL
 
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/LGPL-3
 extra:
   recipe-maintainers:
     - conda-forge/r
