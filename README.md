@@ -5,11 +5,9 @@ Home: https://github.com/omarwagih/ggseqlogo
 
 Package license: LGPL
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggseqlogo-feedstock/blob/master/LICENSE.txt)
 
 Summary: The extensive range of functions provided by this package makes it possible to draw highly versatile sequence logos. Features include, but not limited to, modifying colour schemes and fonts used to draw the logo, generating multiple logo plots, and aiding the visualisation with annotations. Sequence logos can easily be combined with other plots 'ggplot2' plots.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-ggseqlogo` from the `conda-forge` channel can be achieved by addin
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-ggseqlogo` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
