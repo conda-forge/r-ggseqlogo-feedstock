@@ -1,11 +1,11 @@
-About r-ggseqlogo
-=================
+About r-ggseqlogo-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggseqlogo-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/omarwagih/ggseqlogo
 
 Package license: LGPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggseqlogo-feedstock/blob/main/LICENSE.txt)
 
 Summary: The extensive range of functions provided by this package makes it possible to draw highly versatile sequence logos. Features include, but not limited to, modifying colour schemes and fonts used to draw the logo, generating multiple logo plots, and aiding the visualisation with annotations. Sequence logos can easily be combined with other plots 'ggplot2' plots.
 
