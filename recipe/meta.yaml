@@ -1,4 +1,4 @@
-{% set version = "0.2" %}
+{% set version = "0.2.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggseqlogo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggseqlogo/ggseqlogo_{{ version }}.tar.gz
-  sha256: 1cbfd532032dd51316a1fa084bc8cdabe5517bc6ce7b3abafc0d94340e6736b7
+  sha256: 28a5d9b728a2155c0869200ed426e4b2cb7b768d98d801fce46b6360c9eb2d08
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
